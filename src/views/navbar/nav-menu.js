@@ -9,7 +9,7 @@ const navMenuList = [
   },
   {
     id: 3,
-    name: 'Achievement and Skills',
+    name: 'Achievements and Skills',
   },
   {
     id: 4,

@@ -3,7 +3,10 @@ export const lightTheme = {
   text: '#363537',
   toggleBorder: '#FFF',
   background: '#363537',
-  primary: '#f4f9f9',
+  gray: '#f4f9f9',
+  primary: 'rgba(51, 112, 255, 1)',
+  orange: 'orange',
+  success: '#4E9CB1',
 };
 
 export const darkTheme = {
@@ -11,5 +14,8 @@ export const darkTheme = {
   text: '#FAFAFA',
   toggleBorder: '#6B8096',
   background: '#999',
-  primary: '#f4f9f9',
+  gray: '#f4f9f9',
+  primary: 'rgba(51, 112, 255, 1)',
+  orange: 'orange',
+  success: '#4E9CB1',
 };

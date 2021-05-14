@@ -10,17 +10,25 @@ export const StyledNavContainer = styled.div`
   background-color: ${(props) => props.theme.body};
   line-height: ${navTheme.height}px;
   justify-content: center;
+  overflow: hidden;
 `;
 
 export const StyledNavItem = styled.div`
+  position: relative;
   cursor: pointer;
+  color: ${(props) => props.theme.text};
+  transition-delay: 0s;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+  transition-property: background-color;
+  font-weight: 400;
   &:hover {
-    text-decoration: underline;
+    font-weight: 600;
+    color: ${(props) => props.theme.primary};
+    border-bottom: 1.5px solid ${(props) => props.theme.primary};
   }
 `;
 
-export const StyledNavText = styled.span`
-  color: ${(props) => props.theme.text};
-  padding: 0px 6px;
-  font-weight: 400;
+export const StyledNavText = styled.a`
+  padding: 0px 16px;
 `;

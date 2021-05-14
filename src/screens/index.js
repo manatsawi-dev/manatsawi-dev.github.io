@@ -1,7 +1,12 @@
 import React from 'react';
+import HomeScreen from './home';
 
 const IndexScreen = () => {
-  return <div />;
+  return (
+    <>
+      <HomeScreen />
+    </>
+  );
 };
 
 IndexScreen.propTypes = {};
