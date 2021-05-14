@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import {useState} from 'react';
+import {ThemeProvider} from 'styled-components';
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+import {GlobalStyle} from './styles/global-style';
+import {lightTheme, darkTheme} from './styles/themes';
+import IndexScreen from './screens/index';
 
-function App() {
+const App = () => {
+  const [themeMode] = useState('light');
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ThemeProvider theme={themeMode === 'light' ? lightTheme : darkTheme}>
+      <GlobalStyle />
+      <Router>
+        <Switch>
+          <Route exact path="/" component={IndexScreen} />
+        </Switch>
+      </Router>
+    </ThemeProvider>
   );
-}
+};
 
 export default App;
