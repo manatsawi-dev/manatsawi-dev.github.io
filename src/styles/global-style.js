@@ -6,7 +6,6 @@ export const GlobalStyle = createGlobalStyle`
 body {
     background: ${({theme}) => theme.body};
     color: ${({theme}) => theme.text};
-    padding: 0px 30px;
   }
 @font-face {
     font-family: 'Prompt Regular';
