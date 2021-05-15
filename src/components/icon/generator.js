@@ -1,5 +1,18 @@
 import React from 'react';
-import {IconLoad, IconHome, IconCheckbox, IconUnCheckbox, IconLinkedIn, IconIndeed, IconGitHub} from './styled-component';
+import {
+  IconLoad,
+  IconHome,
+  IconCheckbox,
+  IconUnCheckbox,
+  IconLinkedIn,
+  IconIndeed,
+  IconGitHub,
+  IconFlutter,
+  IconReact,
+  IconJavaScript,
+  IconDart,
+  IconDocker,
+} from './styled-component';
 import {iconProps, iconDefaultProps} from './props';
 import * as ICON from './constants';
 
@@ -20,6 +33,16 @@ const IconGenerator = (props) => {
       return <IconIndeed color={color} size={size} />;
     case ICON.GITHUB:
       return <IconGitHub color={color} size={size} />;
+    case ICON.FLUTTER:
+      return <IconFlutter color={color} size={size} />;
+    case ICON.REACT:
+      return <IconReact color={color} size={size} />;
+    case ICON.JAVASCRIPT:
+      return <IconJavaScript color={color} size={size} />;
+    case ICON.DART:
+      return <IconDart color={color} size={size} />;
+    case ICON.DOCKER:
+      return <IconDocker color={color} size={size} />;
     default:
       return null;
   }

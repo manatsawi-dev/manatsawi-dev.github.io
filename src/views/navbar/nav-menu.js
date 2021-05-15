@@ -5,15 +5,15 @@ const navMenuList = [
   },
   {
     id: 2,
-    name: 'Recent works',
+    name: 'Skills',
   },
   {
     id: 3,
-    name: 'Experiences',
+    name: 'Recent works',
   },
   {
     id: 4,
-    name: 'Educations',
+    name: 'My Project',
   },
   {
     id: 5,
