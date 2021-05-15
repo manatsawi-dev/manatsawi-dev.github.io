@@ -1,4 +1,6 @@
 import React from 'react';
+import {iconProps, iconDefaultProps} from './props';
+import * as ICON from './constants';
 import {
   IconLoad,
   IconHome,
@@ -12,9 +14,8 @@ import {
   IconJavaScript,
   IconDart,
   IconDocker,
+  IconMenu,
 } from './styled-component';
-import {iconProps, iconDefaultProps} from './props';
-import * as ICON from './constants';
 
 const IconGenerator = (props) => {
   const {name, color, size} = props;
@@ -43,6 +44,8 @@ const IconGenerator = (props) => {
       return <IconDart color={color} size={size} />;
     case ICON.DOCKER:
       return <IconDocker color={color} size={size} />;
+    case ICON.MENU:
+      return <IconMenu color={color} size={size} />;
     default:
       return null;
   }
