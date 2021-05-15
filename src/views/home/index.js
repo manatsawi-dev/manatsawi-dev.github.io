@@ -41,18 +41,18 @@ const HomeView = () => {
             <StyledWrapBody>
               <StyledWrapText>
                 <Header variant="h4" color={lightTheme.orange}>
-                  {Content.hi}
+                  {Content.home.hi}
                 </Header>
               </StyledWrapText>
               <StyledWrapText inlineTop>
-                <Header variant="h1">{Content.title}</Header>
+                <Header variant="h1">{Content.home.title}</Header>
               </StyledWrapText>
               <StyledWrapText>
                 <Header variant="h3" color={lightTheme.success}>
-                  {Content.position}
+                  {Content.home.position}
                 </Header>
               </StyledWrapText>
-              <Text>{Content.bio}</Text>
+              <Text>{Content.home.bio}</Text>
             </StyledWrapBody>
           </StyledColumn>
           <StyledColumn center>
@@ -75,7 +75,6 @@ const HomeView = () => {
           </StyledColumn>
         </StyledRow>
       </StyledContainer>
-      <p>TEST TEST BOTTOM</p>
     </>
   );
 };

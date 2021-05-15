@@ -5,23 +5,19 @@ const navMenuList = [
   },
   {
     id: 2,
-    name: 'Bio',
+    name: 'Recent works',
   },
   {
     id: 3,
-    name: 'Achievements and Skills',
-  },
-  {
-    id: 4,
     name: 'Experiences',
   },
   {
-    id: 5,
+    id: 4,
     name: 'Educations',
   },
   {
-    id: 6,
-    name: 'Contacts',
+    id: 5,
+    name: 'Contact',
   },
 ];
 

@@ -1,6 +1,11 @@
 {
-  "hi": "Hello, I am",
-  "title": "MANATSAWI SUTLAEO",
-  "position": "MOBILE APPLICATION DEVELOPER & FRONT-END ENGINEER",
-  "bio": "I am a hard working and flexible, honest individual. I am always enthusiastic to learn and undertake new challenges. I am outgotin and tactful, and able to listen effectively when solving problems."
+  "home": {
+    "hi": "Hello, I am",
+    "title": "MANATSAWI SUTLAEO",
+    "position": "MOBILE APPLICATION DEVELOPER & FRONT-END ENGINEER",
+    "bio": "I am a hard working and flexible, honest individual. I am always enthusiastic to learn and undertake new challenges. I am outgotin and tactful, and able to listen effectively when solving problems."
+  },
+  "recentWorks": {
+    "title": "RECENT WORKS"
+  }
 }
