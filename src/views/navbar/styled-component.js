@@ -4,7 +4,6 @@ import navTheme from '../../styles/navbar';
 export const StyledNavContainer = styled.div`
   z-index: 1;
   display: inline-flex;
-  position: absolute;
   height: ${navTheme.height}px;
   width: 100%;
   background-color: ${(props) => props.theme.body};

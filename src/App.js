@@ -3,7 +3,8 @@ import {ThemeProvider} from 'styled-components';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import {GlobalStyle} from './styles/global-style';
 import {lightTheme, darkTheme} from './styles/themes';
-import IndexScreen from './screens/index';
+import Layout from './screens/layout';
+import IndexScreen from './screens';
 import Navbar from './views/navbar';
 
 const App = () => {
@@ -11,12 +12,14 @@ const App = () => {
 
   return (
     <ThemeProvider theme={themeMode === 'light' ? lightTheme : darkTheme}>
-      <Navbar />
       <GlobalStyle />
       <Router>
-        <Switch>
-          <Route exact path="/" component={IndexScreen} />
-        </Switch>
+        <Layout>
+          <Navbar />
+          <Switch>
+            <Route exact path="/" component={IndexScreen} />
+          </Switch>
+        </Layout>
       </Router>
     </ThemeProvider>
   );
