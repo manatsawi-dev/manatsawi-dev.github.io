@@ -11,3 +11,4 @@ export const DOCKER = 'docker';
 export const DART = 'dart';
 export const REACT = 'react';
 export const MENU = 'menu';
+export const ARROW_UP = 'arrow-up';

@@ -15,6 +15,7 @@ import {
   IconDart,
   IconDocker,
   IconMenu,
+  IconArrowUp,
 } from './styled-component';
 
 const IconGenerator = (props) => {
@@ -46,6 +47,8 @@ const IconGenerator = (props) => {
       return <IconDocker color={color} size={size} />;
     case ICON.MENU:
       return <IconMenu color={color} size={size} />;
+    case ICON.ARROW_UP:
+      return <IconArrowUp color={color} size={size} />;
     default:
       return null;
   }

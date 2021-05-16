@@ -12,6 +12,7 @@ import {Dart} from '@styled-icons/simple-icons/Dart';
 import {ReactLogo} from '@styled-icons/fa-brands/ReactLogo';
 import {Flutter} from '@styled-icons/simple-icons/Flutter';
 import {Menu} from '@styled-icons/boxicons-regular/Menu';
+import {KeyboardArrowUp} from '@styled-icons/material-twotone/KeyboardArrowUp';
 
 export const IconLoad = styled(LoaderAlt)`
   color: ${(props) => (props.color ? props.color : props.theme.text)};
@@ -74,6 +75,11 @@ export const IconDocker = styled(Docker)`
 `;
 
 export const IconMenu = styled(Menu)`
+  color: ${(props) => (props.color ? props.color : props.theme.text)};
+  font-size: ${(props) => `${props.size}px`};
+`;
+
+export const IconArrowUp = styled(KeyboardArrowUp)`
   color: ${(props) => (props.color ? props.color : props.theme.text)};
   font-size: ${(props) => `${props.size}px`};
 `;
