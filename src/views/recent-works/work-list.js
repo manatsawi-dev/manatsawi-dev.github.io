@@ -1,5 +1,6 @@
 import ImgWork1 from '../../res/assets/images/works/work1.png';
 import ImgWork2 from '../../res/assets/images/works/work2.png';
+import ImgWork3 from '../../res/assets/images/works/work3.png';
 
 const workList = [
   {
@@ -7,9 +8,10 @@ const workList = [
     title: 'JobFinFin',
     description:
       '' +
-      'The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from' +
+      'Platform: Web, Android, iOS' +
+      '\n\nThe standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from' +
       '\n\nThe standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from',
-    image: ImgWork2,
+    image: ImgWork3,
     imageFloat: 'left',
   },
   {
@@ -17,7 +19,8 @@ const workList = [
     title: 'Panya5G',
     description:
       '' +
-      'The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from' +
+      'Platform: Android, iOS' +
+      '\n\nThe standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from' +
       '\n\nThe standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from',
     image: ImgWork1,
     imageFloat: 'left',
@@ -27,21 +30,11 @@ const workList = [
     title: 'Susco Smart Member',
     description:
       '' +
-      'The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from' +
+      'Platform: Android, iOS' +
+      '\n\nThe standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from' +
       '\n\nThe standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from',
     image: ImgWork2,
     imageFloat: 'right',
   },
-  {
-    id: 4,
-    title: 'Panya5G',
-    description:
-      '' +
-      'The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from' +
-      '\n\nThe standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from',
-    image: ImgWork1,
-    imageFloat: 'right',
-  },
 ];
-
 export default workList;

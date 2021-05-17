@@ -1,12 +1,10 @@
 import styled from 'styled-components';
 
 export const StyledContainer = styled.div`
-  display: block;
+  display: flex;
   flex-direction: column;
-  justify-content: center;
   box-sizing: border-box;
   padding: 80px 0px;
-  width: 100%;
   border-bottom: 1px solid ${(props) => props.theme.gray20};
 `;
 
@@ -17,7 +15,9 @@ export const StyledWorkContainer = styled.div`
   padding: 80px 0px;
   box-sizing: border-box;
   margin: 0px 3rem;
-  justify-content: center;
+  max-width: 1140px;
+  align-items: center;
+  align-self: center;
 `;
 
 export const StyledWorkItem = styled.div`
@@ -49,4 +49,6 @@ export const StyledWorkDesc = styled.div`
   max-width: 540px;
   min-width: 280px;
   align-self: center;
+  white-space: pre-wrap;
+  ${(props) => props.textLeft && 'align-self: flex-end'}
 `;
