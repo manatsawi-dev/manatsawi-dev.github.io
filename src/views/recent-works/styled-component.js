@@ -11,13 +11,13 @@ export const StyledContainer = styled.div`
 export const StyledWorkContainer = styled.div`
   display: flex;
   flex-wrap: ${(props) => (props.revers ? 'wrap-revers' : 'wrap')};
-  border-bottom: 1px solid ${(props) => props.theme.gray20};
   padding: 80px 0px;
   box-sizing: border-box;
   margin: 0px 3rem;
   max-width: 1140px;
   align-items: center;
   align-self: center;
+  ${(props) => props.bottomBorder && `border-bottom: 1px solid ${props.theme.gray20}`}
 `;
 
 export const StyledWorkItem = styled.div`

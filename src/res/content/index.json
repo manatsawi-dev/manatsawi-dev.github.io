@@ -13,5 +13,8 @@
   },
   "mostUsedLang": {
     "title": "Most Used Languages"
+  },
+  "myProjects": {
+    "title": "My Projects"
   }
 }

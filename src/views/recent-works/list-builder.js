@@ -8,7 +8,11 @@ const WorkList = () => {
     <>
       {workList.map((item, index) => {
         return (
-          <StyledWorkContainer id={`rcwork-${item.id}`} key={index.toString()} revers={item.imageFloat === 'right'}>
+          <StyledWorkContainer
+            id={`rcwork-${item.id}`}
+            key={index.toString()}
+            revers={item.imageFloat === 'right'}
+            bottomBorder={index < workList.length - 1}>
             <StyledWorkItem float="right" textLeft={item.imageFloat === 'right'}>
               {item.imageFloat === 'left' && <StyledWorkImage src={item.image} />}
               {item.imageFloat === 'right' && (
