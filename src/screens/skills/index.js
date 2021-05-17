@@ -1,7 +1,13 @@
 import SkillsView from '../../views/skills';
+import LanguageStateView from '../../views/language-state';
 
 const SkillsScreen = () => {
-  return <SkillsView />;
+  return (
+    <>
+      <SkillsView />
+      <LanguageStateView />
+    </>
+  );
 };
 
 SkillsScreen.propTypes = {};

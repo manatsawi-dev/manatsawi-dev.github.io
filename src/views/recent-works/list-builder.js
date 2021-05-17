@@ -1,6 +1,7 @@
 import {StyledWorkContainer, StyledWorkItem, StyledWorkImage, StyledWorkItemSpace, StyledWorkDesc} from './styled-component';
 import Header from '../../components/header';
 import workList from './work-list';
+import {lightTheme} from '../../styles/themes';
 
 const WorkList = () => {
   return (
@@ -12,7 +13,9 @@ const WorkList = () => {
               {item.imageFloat === 'left' && <StyledWorkImage src={item.image} />}
               {item.imageFloat === 'right' && (
                 <StyledWorkDesc textLeft>
-                  <Header variant="h3">{item.title}</Header>
+                  <Header variant="h3" color={lightTheme.success}>
+                    {item.title}
+                  </Header>
                   <span>{item.description}</span>
                 </StyledWorkDesc>
               )}
@@ -22,7 +25,9 @@ const WorkList = () => {
               {item.imageFloat === 'right' && <StyledWorkImage src={item.image} />}
               {item.imageFloat === 'left' && (
                 <StyledWorkDesc>
-                  <Header variant="h3">{item.title}</Header>
+                  <Header variant="h3" color={lightTheme.success}>
+                    {item.title}
+                  </Header>
                   <span>{item.description}</span>
                 </StyledWorkDesc>
               )}

@@ -10,5 +10,8 @@
   },
   "skills": {
     "title": "SKILLS"
+  },
+  "mostUsedLang": {
+    "title": "Most Used Languages"
   }
 }
