@@ -3,6 +3,7 @@ import HomeScreen from './home';
 import RecentWorksScreen from './recent-works';
 import SkillsScreen from './skills';
 import MyProjectsScreen from './my-projects';
+import ContactScreen from './contact';
 
 const IndexScreen = () => {
   return (
@@ -11,6 +12,7 @@ const IndexScreen = () => {
       <SkillsScreen />
       <RecentWorksScreen />
       <MyProjectsScreen />
+      <ContactScreen />
     </>
   );
 };

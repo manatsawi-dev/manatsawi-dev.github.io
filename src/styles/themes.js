@@ -9,6 +9,7 @@ export const lightTheme = {
   success: '#4E9CB1',
   gray10: '#e8e8e8',
   gray20: 'rgba(34, 36, 39, 0.05)',
+  white: '#FFF',
 };
 
 export const darkTheme = {
@@ -22,4 +23,5 @@ export const darkTheme = {
   success: '#4E9CB1',
   gray10: '#e8e8e8',
   gray20: 'rgba(34, 36, 39, 0.05)',
+  white: '#FFF',
 };

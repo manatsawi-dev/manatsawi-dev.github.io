@@ -16,5 +16,10 @@
   },
   "myProjects": {
     "title": "My Repositories"
+  },
+  "contact": {
+    "title": "Do you want to build something?",
+    "preDesc": "Email me at ",
+    "desc": "manatsawi.sut@gmail.com"
   }
 }
