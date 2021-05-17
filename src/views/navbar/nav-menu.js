@@ -13,7 +13,7 @@ const navMenuList = [
   },
   {
     id: 4,
-    name: 'My Project',
+    name: 'Repositories',
   },
   {
     id: 5,

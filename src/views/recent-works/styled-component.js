@@ -10,7 +10,7 @@ export const StyledContainer = styled.div`
 
 export const StyledWorkContainer = styled.div`
   display: flex;
-  flex-wrap: ${(props) => (props.revers ? 'wrap-revers' : 'wrap')};
+  flex-wrap: ${(props) => (props.revers ? 'wrap-reverse' : 'wrap')};
   padding: 80px 0px;
   box-sizing: border-box;
   margin: 0px 3rem;
@@ -22,16 +22,9 @@ export const StyledWorkContainer = styled.div`
 
 export const StyledWorkItem = styled.div`
   flex: 47.5%;
-  display: ${(props) => (props.float === 'left' ? 'flex;' : 'block;')};
+  display: flex;
   position: relative;
   text-align: ${(props) => props.float};
-  ${(props) =>
-    props.textLeft &&
-    `
-  display: block;
-  text-align: left;
-  justify-content: flex-end;
-  align-items: center;`}
 `;
 
 export const StyledWorkItemSpace = styled.div`
@@ -50,5 +43,5 @@ export const StyledWorkDesc = styled.div`
   min-width: 280px;
   align-self: center;
   white-space: pre-wrap;
-  ${(props) => props.textLeft && 'align-self: flex-end'}
+  ${(props) => props.textLeft && 'text-align: start'};
 `;
