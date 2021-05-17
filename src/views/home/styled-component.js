@@ -8,7 +8,7 @@ export const StyledContainer = styled.div`
   box-sizing: border-box;
   justify-content: center;
   align-items: center;
-  border: 1px solid ${(props) => props.theme.gray20};
+  border-bottom: 1px solid ${(props) => props.theme.gray20};
 `;
 
 export const StyledWrapBody = styled.div`

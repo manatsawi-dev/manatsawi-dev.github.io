@@ -8,7 +8,7 @@ export const StyledContainer = styled.div`
   flex-direction: column;
   padding: 80px 0px 85px 0px;
   width: 100%;
-  border: 1px solid ${(props) => props.theme.gray20};
+  border-bottom: 1px solid ${(props) => props.theme.gray20};
 `;
 
 export const StyledSkillWrap = styled.div`
