@@ -16,6 +16,13 @@ export const StyledWrap = styled.div`
   justify-content: center;
 `;
 
-export const StyledRepoItem = styled.div`
-  padding: 0.25rem 1rem;
+export const StyledRepoItem = styled.a`
+  margin: 0.25rem 1rem;
+`;
+
+export const StyledRepoImg = styled.img`
+  @media (max-width: 450px) {
+    width: 280px;
+    height: 84px;
+  }
 `;

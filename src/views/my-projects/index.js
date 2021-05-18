@@ -1,7 +1,7 @@
-import ReactMarkdown from 'react-markdown';
-import {StyledContainer, StyledWrap, StyledRepoItem} from './styled-component';
+import {StyledContainer, StyledWrap, StyledRepoItem, StyledRepoImg} from './styled-component';
 import Header from '../../components/header';
 import Content from '../../res/content/index.json';
+import repoList from './repo-list';
 
 const MyProjectsView = () => {
   return (
@@ -10,18 +10,11 @@ const MyProjectsView = () => {
         {Content.myProjects.title}
       </Header>
       <StyledWrap>
-        <StyledRepoItem>
-          <ReactMarkdown>
-            [![Readme
-            Card](https://github-readme-stats.vercel.app/api/pin/?username=manatsawi-dev&repo=json-server)](https://github.com/manatsawi-dev/json-server)
-          </ReactMarkdown>
-        </StyledRepoItem>
-        <StyledRepoItem>
-          <ReactMarkdown>
-            [![Readme
-            Card](https://github-readme-stats.vercel.app/api/pin/?username=manatsawi-dev&repo=iFintech)](https://github.com/manatsawi-dev/iFintech)
-          </ReactMarkdown>
-        </StyledRepoItem>
+        {repoList.map((item, index) => (
+          <StyledRepoItem key={index.toString()} href={item.gitUrl}>
+            <StyledRepoImg src={item.apiUrl} />
+          </StyledRepoItem>
+        ))}
       </StyledWrap>
     </StyledContainer>
   );

@@ -10,7 +10,7 @@ const LanguageStateView = () => {
     <StyledLangStateContainer>
       <Header variant="h2">{Content.mostUsedLang.title}</Header>
       <ReactMarkdown>
-        [![TopLangs](https://github-readme-stats.vercel.app/api/top-langs/?username=manatsawi-dev&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
+        [![TopLangs](https://github-readme-stats.vercel.app/api/top-langs/?username=manatsawi-dev&layout=compact&card_width=270)](https://github.com/anuraghazra/github-readme-stats)
       </ReactMarkdown>
       {/* <ReactMarkdown>
         [![willianrod'swakatimestats](https://github-readme-stats.vercel.app/api/wakatime?username=Sutlaeo&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
