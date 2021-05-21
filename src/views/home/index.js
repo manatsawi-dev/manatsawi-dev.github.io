@@ -35,7 +35,7 @@ const HomeView = () => {
 
   return (
     <>
-      <StyledContainer>
+      <StyledContainer id="sc-home">
         <StyledRow>
           <StyledColumn center>
             <StyledWrapBody>
@@ -57,7 +57,7 @@ const HomeView = () => {
           </StyledColumn>
           <StyledColumn center>
             <StyledProfile>
-              <Thumbnail circle src={ImgProfile} size={300} />
+              <Thumbnail circle autoScale src={ImgProfile} size={265} />
             </StyledProfile>
             <StyledRowSocial>
               {socialList.map((item, index) => (

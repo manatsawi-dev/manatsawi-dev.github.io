@@ -9,6 +9,7 @@ import {
   StyledNavSmallWrap,
 } from './styled-component';
 import {useClickOutsideEffect} from '../../hooks/useClickOutSideEffect';
+import {navDocumentIds} from './utils';
 import Icon from '../../components/icon';
 import navMenuList from './nav-menu';
 import * as iconName from '../../components/icon/constants';
@@ -19,12 +20,21 @@ const Navbar = () => {
 
   useClickOutsideEffect(refNavOpen, () => setIsOpen(false));
 
+  const onEventLinkTo = (id) => {
+    const documnetRef = document.getElementById(navDocumentIds[id]);
+    if (!documnetRef) {
+      return;
+    }
+    setIsOpen(false);
+    window.scrollTo({top: documnetRef.offsetTop, behavior: 'smooth'});
+  };
+
   return (
     <>
       <StyledNavContainer id="nav-container">
         {navMenuList.map((item, index) => {
           return (
-            <StyledNavItem id={`nav-${index}`} key={index.toString()}>
+            <StyledNavItem id={`nav-${index}`} key={index.toString()} onClick={() => onEventLinkTo(item.name)}>
               <StyledNavText> {item.name}</StyledNavText>
             </StyledNavItem>
           );
@@ -37,7 +47,7 @@ const Navbar = () => {
         <StyledNavSmallWrap open={isOpen}>
           {navMenuList.map((item, index) => {
             return (
-              <StyledNavItemSmall id={`nav-small-${index}`} key={index.toString()}>
+              <StyledNavItemSmall id={`nav-small-${index}`} key={index.toString()} onClick={() => onEventLinkTo(item.name)}>
                 <StyledNavText> {item.name}</StyledNavText>
               </StyledNavItemSmall>
             );

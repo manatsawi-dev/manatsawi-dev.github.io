@@ -5,7 +5,7 @@ import repoList from './repo-list';
 
 const MyProjectsView = () => {
   return (
-    <StyledContainer>
+    <StyledContainer id="sc-my-repo">
       <Header center variant="h2">
         {Content.myProjects.title}
       </Header>

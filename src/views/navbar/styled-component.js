@@ -74,7 +74,7 @@ export const StyledNavSmallWrap = styled.div`
   top: 56px;
   right: 0;
   left: 0;
-  height: ${(props) => (props.open ? '140px' : '0px')};
+  height: ${(props) => (props.open ? '250px' : '0px')};
   transition: all 0.3s ease;
   padding: ${(props) => (props.open ? '1rem 0' : '0')};
   overflow: hidden;
@@ -90,6 +90,7 @@ export const StyledNavItemSmall = styled.div`
   transition-timing-function: ease;
   transition-property: background-color;
   font-weight: 400;
+  margin: 0.5rem 0;
   &:hover {
     font-weight: bold;
     color: ${(props) => props.theme.primary};

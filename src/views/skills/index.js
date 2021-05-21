@@ -6,7 +6,7 @@ import skillList from './skill-list';
 
 const SkillsView = () => {
   return (
-    <StyledContainer>
+    <StyledContainer id="sc-skills">
       <Header variant="h2">{Content.skills.title}</Header>
       <StyledSkillWrap>
         {skillList.map((item, index) => (

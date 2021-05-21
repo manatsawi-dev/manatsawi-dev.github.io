@@ -5,7 +5,7 @@ import Content from '../../res/content/index.json';
 
 const RecentWorksView = () => {
   return (
-    <StyledContainer>
+    <StyledContainer id="sc-recent-works">
       <Header center variant="h2">
         {Content.recentWorks.title}
       </Header>

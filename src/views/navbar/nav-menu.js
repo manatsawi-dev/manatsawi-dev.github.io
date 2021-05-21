@@ -9,14 +9,18 @@ const navMenuList = [
   },
   {
     id: 3,
-    name: 'Recent works',
+    name: 'Most Used',
   },
   {
     id: 4,
-    name: 'Repositories',
+    name: 'Recent works',
   },
   {
     id: 5,
+    name: 'Repositories',
+  },
+  {
+    id: 6,
     name: 'Contact',
   },
 ];
