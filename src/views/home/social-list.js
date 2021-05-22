@@ -20,7 +20,7 @@ export const socialList = [
     id: 3,
     name: 'indeed',
     icon: iconName.INDEED,
-    link: 'https://th.indeed.com/?r=us',
+    link: 'https://my.indeed.com/p/manatsawis-tqchy58',
     color: lightTheme.primary,
   },
 ];
