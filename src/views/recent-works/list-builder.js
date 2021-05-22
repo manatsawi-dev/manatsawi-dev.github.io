@@ -1,4 +1,4 @@
-import {StyledWorkContainer, StyledWorkItem, StyledWorkImage, StyledWorkItemSpace, StyledWorkDesc} from './styled-component';
+import {StyledWorkContainer, StyledWorkItem, StyledWorkImage, StyledWorkItemSpace, StyledWorkDesc, StyledDesc} from './styled-component';
 import Header from '../../components/header';
 import workList from './work-list';
 import {lightTheme} from '../../styles/themes';
@@ -20,7 +20,7 @@ const WorkList = () => {
                   <Header variant="h3" color={lightTheme.success}>
                     {item.title}
                   </Header>
-                  <span>{item.description}</span>
+                  <StyledDesc>{item.description}</StyledDesc>
                 </StyledWorkDesc>
               )}
             </StyledWorkItem>
@@ -32,7 +32,7 @@ const WorkList = () => {
                   <Header variant="h3" color={lightTheme.success}>
                     {item.title}
                   </Header>
-                  <span>{item.description}</span>
+                  <StyledDesc>{item.description}</StyledDesc>
                 </StyledWorkDesc>
               )}
             </StyledWorkItem>

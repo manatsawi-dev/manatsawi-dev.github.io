@@ -45,3 +45,7 @@ export const StyledWorkDesc = styled.div`
   white-space: pre-wrap;
   ${(props) => props.textLeft && 'text-align: start'};
 `;
+
+export const StyledDesc = styled.span`
+  font-weight: 500;
+`;

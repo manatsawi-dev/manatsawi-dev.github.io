@@ -9,8 +9,8 @@ const workList = [
     description:
       '' +
       'Platform: Web, Android, iOS' +
-      '\n\nThe standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from' +
-      '\n\nThe standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from',
+      '\n\nJob search platform' +
+      '\n\nJobFinFIn is a job search platform. Which has collected up to 100000+ job listings. Save jobs you have viewed for later. Easily apply to jobs directly through the platform.',
     image: ImgWork3,
     imageFloat: 'left',
   },
@@ -20,8 +20,8 @@ const workList = [
     description:
       '' +
       'Platform: Android, iOS' +
-      '\n\nThe standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from' +
-      '\n\nThe standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from',
+      '\n\nData recording system for rotating savings platform' +
+      '\n\nPanya5G is a platform for saving data in the form of rotating savings. Daily statement of outstanding balance or installment payments. Reminder of the amount of payment received every day.',
     image: ImgWork1,
     imageFloat: 'left',
   },
@@ -31,8 +31,8 @@ const workList = [
     description:
       '' +
       'Platform: Android, iOS' +
-      '\n\nThe standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from' +
-      '\n\nThe standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from',
+      '\n\nCustomer relationship management system (CRM).' +
+      '\n\nSusco Smart Member is a customer relationship management system (CRM). Used to earn points. Exchange points for rewards and transfer points to other participating platforms.',
     image: ImgWork2,
     imageFloat: 'right',
   },
