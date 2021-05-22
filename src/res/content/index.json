@@ -1,0 +1,25 @@
+{
+  "home": {
+    "hi": "Hello, I am",
+    "title": "MANATSAWI SUTLAEO",
+    "position": "MOBILE APPLICATION DEVELOPER",
+    "bio": "Seeking a challenging position in an organization where I can use my talents and skills to grow and expand an organization as well as myself."
+  },
+  "recentWorks": {
+    "title": "RECENT WORKS"
+  },
+  "skills": {
+    "title": "SKILLS"
+  },
+  "mostUsedLang": {
+    "title": "Most Used Languages"
+  },
+  "myProjects": {
+    "title": "Repositories"
+  },
+  "contact": {
+    "title": "Do you want to build something?",
+    "preDesc": "Email me at ",
+    "desc": "manatsawi.sut@gmail.com"
+  }
+}
