@@ -116,3 +116,7 @@ build
 npm-debug.log
 ```
 
+## Firebase
+```js
+yarn add firebase react-firebase-hooks
+```
