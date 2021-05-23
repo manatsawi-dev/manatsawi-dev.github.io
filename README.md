@@ -6,7 +6,7 @@ yarn add axios lodash numeral prop-types react-redux react-router-dom redux redu
 
 ### Dev Dependencies
 ```js
-yarn add --dev babel-eslint babel-jest jest @babel/plugin-transform-runtime @babel/preset-env @babel/preset-react @wojtekmaj/enzyme-adapter-react-17 babel-jest babel-polyfill enzyme jest react-test-renderer sinon
+yarn add --dev babel-eslint babel-jest jest @babel/plugin-transform-runtime @babel/preset-env @babel/preset-react @wojtekmaj/enzyme-adapter-react-17 babel-jest babel-polyfill enzyme jest react-test-renderer sinon eslint-config-airbnb eslint-config-prettier eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-prettier eslint-plugin-react eslint-plugin-react-hooks
 ```
 
 ### Setup Test
