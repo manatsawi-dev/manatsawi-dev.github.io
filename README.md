@@ -13,9 +13,9 @@ yarn add --dev babel-eslint babel-jest jest @babel/plugin-transform-runtime @bab
 1. package.json
 ```json
   "jest": {
-    "setupFiles": {
+    "setupFiles": [
       "./src/setupTests.js"
-    }
+    ]
   }
 ```
 2. src/jest.config.js
