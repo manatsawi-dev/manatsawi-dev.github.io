@@ -44,6 +44,18 @@ yarn add --dev babel-eslint babel-jest jest @babel/plugin-transform-runtime @bab
   Enzyme.configure({ adapter: new Adapter() });
 ```
 
+4. ./src/babel.config.js
+```js
+// babel.config.js
+module.exports = {
+  presets: ["@babel/preset-env", "@babel/preset-react"],
+  plugins: [
+    "@babel/plugin-proposal-class-properties",
+    "@babel/plugin-transform-runtime",
+  ],
+};
+```
+
 ## Setup IDE
 1. src/.prettierrc.js
 ```js
