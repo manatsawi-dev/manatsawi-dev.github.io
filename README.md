@@ -3,7 +3,7 @@
 ```js
 yarn add axios lodash numeral prop-types react-redux react-router-dom redux redux-devtools-extension redux-saga styled-components styled-icons
 ```
-
+### UI Dependencies
 ```js
 yarn add babel-eslint babel-jest body-scroll-lock jest moment react-helmet-async react-inlinesvg react-loading-skeleton react-modal react-range react-switch react-tooltip uuid
 ```
