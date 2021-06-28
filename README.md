@@ -4,6 +4,10 @@
 yarn add axios lodash numeral prop-types react-redux react-router-dom redux redux-devtools-extension redux-saga styled-components styled-icons
 ```
 
+```js
+yarn add babel-eslint babel-jest body-scroll-lock jest moment react-helmet-async react-inlinesvg react-loading-skeleton react-modal react-range react-switch react-tooltip uuid
+```
+
 ### Dev Dependencies
 ```js
 yarn add --dev babel-eslint babel-jest jest @babel/plugin-transform-runtime @babel/preset-env @babel/preset-react @wojtekmaj/enzyme-adapter-react-17 babel-jest babel-polyfill enzyme jest@26.6.0 react-test-renderer sinon eslint-config-airbnb eslint-config-prettier eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-prettier eslint-plugin-react eslint-plugin-react-hooks
