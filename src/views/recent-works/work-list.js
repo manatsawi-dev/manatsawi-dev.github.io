@@ -1,6 +1,8 @@
+/* eslint-disable no-useless-concat */
 import ImgWork1 from '../../res/assets/images/works/work1.png';
 import ImgWork2 from '../../res/assets/images/works/work2.png';
 import ImgWork3 from '../../res/assets/images/works/work3.png';
+import ImgWork4 from '../../res/assets/images/works/work4.png';
 
 const workList = [
   {
@@ -13,6 +15,17 @@ const workList = [
       '\n\nJobFinFIn is a job search platform. Which has collected up to 100000+ job listings. Save jobs you have viewed for later. Easily apply to jobs directly through the platform.',
     image: ImgWork3,
     imageFloat: 'left',
+  },
+  {
+    id: 20,
+    title: 'Ufriend',
+    description:
+      '' +
+      'Platform: Android, iOS' +
+      '\n\nInstallment Sale Platform' +
+      '\n\nUfriend is a installment sale platform. The system can view installment information and notify you of overdue payments, next bill payments. Able to pay installments and view your payment history',
+    image: ImgWork4,
+    imageFloat: 'right',
   },
   {
     id: 2,

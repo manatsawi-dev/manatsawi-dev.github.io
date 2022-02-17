@@ -16,6 +16,7 @@ import {
   IconDocker,
   IconMenu,
   IconArrowUp,
+  IconAPI,
 } from './styled-component';
 
 const IconGenerator = (props) => {
@@ -23,6 +24,8 @@ const IconGenerator = (props) => {
   switch (name) {
     case ICON.LOADING:
       return <IconLoad color={color} size={size} />;
+    case ICON.REST_API:
+      return <IconAPI color={color} size={size} />;
     case ICON.HOME:
       return <IconHome color={color} size={size} />;
     case ICON.CHECKED_CHECKBOX:
