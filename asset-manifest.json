@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/static/js/main.98a298f0.chunk.js",
+    "main.js.map": "/static/js/main.98a298f0.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.8cd73353.js",
+    "runtime-main.js.map": "/static/js/runtime-main.8cd73353.js.map",
+    "static/js/2.786adedd.chunk.js": "/static/js/2.786adedd.chunk.js",
+    "static/js/2.786adedd.chunk.js.map": "/static/js/2.786adedd.chunk.js.map",
+    "static/js/3.25df87e0.chunk.js": "/static/js/3.25df87e0.chunk.js",
+    "static/js/3.25df87e0.chunk.js.map": "/static/js/3.25df87e0.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.6dea0f05.chunk.css.map": "/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.786adedd.chunk.js.LICENSE.txt": "/static/js/2.786adedd.chunk.js.LICENSE.txt",
+    "static/media/Montserrat-Light.02afb26f.ttf": "/static/media/Montserrat-Light.02afb26f.ttf",
+    "static/media/Montserrat-Regular.3cd78665.ttf": "/static/media/Montserrat-Regular.3cd78665.ttf",
+    "static/media/profile.335aa1c0.jpeg": "/static/media/profile.335aa1c0.jpeg",
+    "static/media/work1.19a686e0.png": "/static/media/work1.19a686e0.png",
+    "static/media/work2.8bf49571.png": "/static/media/work2.8bf49571.png",
+    "static/media/work3.51885cec.png": "/static/media/work3.51885cec.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8cd73353.js",
+    "static/js/2.786adedd.chunk.js",
+    "static/css/main.6dea0f05.chunk.css",
+    "static/js/main.98a298f0.chunk.js"
+  ]
+}

@@ -13,6 +13,12 @@ import {ReactLogo} from '@styled-icons/fa-brands/ReactLogo';
 import {Flutter} from '@styled-icons/simple-icons/Flutter';
 import {Menu} from '@styled-icons/boxicons-regular/Menu';
 import {KeyboardArrowUp} from '@styled-icons/material-twotone/KeyboardArrowUp';
+import {Api} from '@styled-icons/material/Api';
+
+export const IconAPI = styled(Api)`
+  color: ${(props) => (props.color ? props.color : props.theme.text)};
+  font-size: ${(props) => `${props.size}px`};
+`;
 
 export const IconLoad = styled(LoaderAlt)`
   color: ${(props) => (props.color ? props.color : props.theme.text)};
